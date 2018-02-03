@@ -10,7 +10,7 @@ namespace Native.UWP
 
             UI.Publish("/button", ButtonSample.Default.Get);
 
-            LoadApplication(new Native.App());
+            LoadApplication(new Core.App());
         }
     }
 }

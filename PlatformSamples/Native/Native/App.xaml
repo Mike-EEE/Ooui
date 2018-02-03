@@ -1,10 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Native.App">
-	<Application.Resources>
+<Application
+    x:Class="Native.Core.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:native="clr-namespace:Native;assembly=Native.Core">
+    <Application.Resources>
 
-		<!-- Application resource dictionary -->
+        <!--  Application resource dictionary  -->
 
-	</Application.Resources>
+    </Application.Resources>
+    <Application.MainPage>
+        <native:MainPage />
+    </Application.MainPage>
 </Application>
